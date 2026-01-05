@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+.center-xy {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+html, body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-container {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.back-btn {
+  display: block;
+  width: fit-content;
+  align-items: center;
+  gap: 10px;
+  margin: 18px auto 0;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffe500, #ffb800);
+  color: #111;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+  filter: brightness(1.03);
+}
+
+.back-btn::before {
+  content: "↩";
+  font-size: 1rem;
+}
+
+p {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  display: inline-block;
+}
+
+.handle {
+  background: #ffe500;
+  width: 14px;
+  height: 30px;
+  margin-left: 6px;
+  position: relative;
+  display: inline-block;
+  vertical-align: text-bottom;
+  animation: blink 0.8s steps(1) infinite;
+}
+
+#cb-replay {
+  fill: #666;
+  width: 20px;
+  margin: 15px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  overflow: inherit;
+  cursor: pointer;
+}
+#cb-replay:hover {
+  fill: #888;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
