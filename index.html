@@ -8,10 +8,14 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="ambient"></div>
+  <div class="wave-wrap" aria-hidden="true">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
   <header class="topbar">
     <a class="brand" href="/">
       <img src="img/infrastack.svg" alt="InfraStack">
@@ -21,22 +25,21 @@
       <a href="#solucoes">Solucoes</a>
       <a href="#stack">Stack</a>
       <a href="#contato">Contato</a>
-      <a class="cta" href="/monitor/">Entrar no Monitor</a>
+      <a href="/area-cliente/">Area do Cliente</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <p class="pill">Observabilidade em tempo real</p>
-        <h1>Visibilidade total da sua infraestrutura em um unico painel.</h1>
-        <p class="lead">
-          InfraStack conecta monitoramento, alertas e analises para voce tomar decisoes rapidas,
-          reduzir indisponibilidade e escalar com seguranca.
-        </p>
+      <div class="hero-copy glass">
+        <h1 class="hero-title">
+          <span>Controle</span>
+          <span>infraestrutura</span>
+          <span>performance</span>
+        </h1>
         <div class="hero-actions">
-          <a class="btn primary" href="/monitor/">Abrir Monitor</a>
-          <a class="btn ghost" href="/zabbix/">Acessar Zabbix</a>
+          <a class="btn primary" href="https://wa.me/554891217882">Falar com especialista (WhatsApp)</a>
+          <a class="btn ghost" href="/area-cliente/">Conhecer a area do cliente</a>
         </div>
         <div class="stats">
           <div>
@@ -54,31 +57,41 @@
         </div>
       </div>
       <div class="hero-card">
-        <div class="card-header">Status agora</div>
+        <div class="card-header">
+          <span>Status agora</span>
+          <span class="card-subtitle">Servicos monitorados</span>
+        </div>
+        <div class="card-divider" aria-hidden="true"></div>
         <div class="card-body">
           <div class="status-row">
-            <span>Servico Web</span>
-            <span class="status ok">OK</span>
+            <span class="status-label">
+              <img class="status-icon" src="img/infrastack.svg" alt="Monitor">
+              MONITOR
+            </span>
+            <span class="status ok"><span class="status-dot" aria-hidden="true"></span>Online</span>
           </div>
           <div class="status-row">
-            <span>Banco de Dados</span>
-            <span class="status warn">Atencao</span>
+            <span class="status-label">
+              <img class="status-icon" src="img/zabbix.svg" alt="Zabbix">
+              ZABBIX
+            </span>
+            <span class="status ok"><span class="status-dot" aria-hidden="true"></span>Online</span>
           </div>
           <div class="status-row">
-            <span>Fila de Jobs</span>
-            <span class="status ok">OK</span>
-          </div>
-          <div class="sparkline">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
+            <span class="status-label">
+              <img class="status-icon" src="img/grafana.svg" alt="Grafana">
+              GRAFANA
+            </span>
+            <span class="status ok"><span class="status-dot" aria-hidden="true"></span>Online</span>
           </div>
         </div>
       </div>
+    </section>
+    <section id="solucoes" class="grid">
+      <article>
+        <h3>Area do Cliente</h3>
+        <p>Centralize acessos, chamados e comunicados em um unico lugar para sua operacao.</p>
+      </article>
     </section>
 
     <section id="solucoes" class="grid">
@@ -98,15 +111,15 @@
 
     <section id="stack" class="stack">
       <div>
-        <h2>Stack integrada</h2>
+        <p class="stack-pill">Stack integrada</p>
+        <h2>Plataforma completa para operar com confianca.</h2>
         <p>
-          Monitoramento proprietario + Zabbix para uma cobertura completa de infraestrutura,
-          rede e aplicacoes criticas.
+          Unifique observabilidade, dados e alertas em um fluxo unico para responder rapido,
+          reduzir riscos e manter a operacao sempre resiliente.
         </p>
       </div>
       <div class="stack-actions">
-        <a class="btn primary" href="/monitor/">Monitor InfraStack</a>
-        <a class="btn ghost" href="/zabbix/">Zabbix Web</a>
+        <a class="btn primary" href="#contato">Agendar uma demo</a>
       </div>
     </section>
   </main>
@@ -117,7 +130,10 @@
       <p>Monitoramento e observabilidade para operacoes criticas.</p>
     </div>
     <div>
-      <a href="mailto:contato@infrastack.com.br">contato@infrastack.com.br</a>
+      <a href="https://wa.me/554891217882">WhatsApp: +55 48 9121-7882</a>
+    </div>
+    <div>
+      <a href="mailto:matheus.benitrs@gmail.com">matheus.benitrs@gmail.com</a>
     </div>
   </footer>
 </body>
