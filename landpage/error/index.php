@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - GSAP 404 typed message using SplitText </title>
+  <title>page not found. </title>
   <link rel="stylesheet" href="/error/style.css">
 
 </head>
