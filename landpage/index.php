@@ -39,7 +39,7 @@
         </h1>
         <div class="hero-actions">
           <a class="btn primary" href="https://wa.me/553196927212">Falar com especialista (WhatsApp)</a>
-          <a class="btn ghost" href="area-cliente/">Conhecer a area do cliente</a>
+          <a class="btn ghost" href="area-cliente/">Conhecer a área do cliente</a>
         </div>
         <div class="stats">
           <div>
@@ -104,7 +104,7 @@
         <p>Visão consolidada de latência, disponibilidade e consumo com histórico detalhado.</p>
       </article>
       <article>
-        <h3>Operacao segura</h3>
+        <h3>Operação segura</h3>
         <p>Padrões de acesso, trilhas e logs para conformidade e auditoria.</p>
       </article>
     </section>
