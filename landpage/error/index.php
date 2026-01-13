@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>page not found. </title>
+  <title>Página não encontrada.</title>
   <link rel="stylesheet" href="/error/style.css">
 
 </head>
@@ -11,7 +11,7 @@
 <div class="container">
   <div class="copy-container center-xy">
     <p>
-      404, page not found.
+      404, página não encontrada.
     </p>
     <span class="handle"></span>
     <a class="back-btn" href="/">Voltar</a>

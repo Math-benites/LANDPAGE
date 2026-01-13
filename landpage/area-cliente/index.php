@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>InfraStack | Area do Cliente</title>
+  <title>InfraStack | Área do Cliente</title>
   <link rel="icon" type="image/svg+xml" href="../img/infrastack.svg">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
       <span>InfraStack</span>
     </a>
     <nav class="nav">
-      <a href="../#solucoes">Solucoes</a>
+      <a href="../#solucoes">Soluções</a>
       <a href="../#stack">Stack</a>
       <a href="../#contato">Contato</a>
     </nav>
@@ -32,10 +32,10 @@
     <section class="hero">
       <div class="hero-copy glass">
         <p></p>
-        <h1>Centralize acessos, chamados e status em um unico lugar.</h1>
+        <h1>Centralize acessos, chamados e status em um único lugar.</h1>
         <p class="lead">
-          Aqui voce encontra atalhos para monitoramento, solicitacoes e
-          comunicados operacionais. Selecione a opcao desejada para continuar.
+          Aqui você encontra atalhos para monitoramento, solicitações e
+          comunicados operacionais. Selecione a opção desejada para continuar.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="/monitor/">Abrir Monitor</a>
@@ -44,7 +44,7 @@
         <div class="stats">
           <div>
             <span class="stat-number">Prioridade 24/7</span>
-            <span class="stat-label">Atendimento a incidentes criticos</span>
+            <span class="stat-label">Atendimento a incidentes críticos</span>
           </div>
           <div>
             <span class="stat-number">SLA ativo</span>
@@ -78,8 +78,8 @@
 
     <section class="grid">
       <article>
-        <h3>Documentacao</h3>
-        <p>Guias de acesso e rotinas de operacao para sua equipe.</p>
+        <h3>Documentação</h3>
+        <p>Guias de acesso e rotinas de operação para sua equipe.</p>
       </article>
       <article>
         <h3>Chamados</h3>
@@ -87,7 +87,7 @@
       </article>
       <article>
         <h3>Comunicados</h3>
-        <p>Informes de manutencao, melhorias e indicadores.</p>
+        <p>Informes de manutenção, melhorias e indicadores.</p>
       </article>
     </section>
   </main>
@@ -95,7 +95,7 @@
   <footer class="footer">
     <div>
       <strong>InfraStack</strong>
-      <p>Area exclusiva para clientes e operacoes criticas.</p>
+      <p>Área exclusiva para clientes e operações críticas.</p>
     </div>
     <div>
       <a href="mailto:matheus.benitrs@gmail.com">matheus.benitrs@gmail.com</a>

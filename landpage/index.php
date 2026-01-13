@@ -22,10 +22,10 @@
       <span>InfraStack</span>
     </a>
     <nav class="nav">
-      <a href="#solucoes">Solucoes</a>
+      <a href="#solucoes">Soluções</a>
       <a href="#stack">Stack</a>
       <a href="#contato">Contato</a>
-      <a href="area-cliente/">Area do Cliente</a>
+      <a href="area-cliente/">Área do Cliente</a>
     </nav>
   </header>
 
@@ -59,7 +59,7 @@
       <div class="hero-card">
         <div class="card-header">
           <span>Status agora</span>
-          <span class="card-subtitle">Servicos monitorados</span>
+          <span class="card-subtitle">Serviços monitorados</span>
         </div>
         <div class="card-divider" aria-hidden="true"></div>
         <div class="card-body">
@@ -89,33 +89,33 @@
     </section>
     <section id="solucoes" class="grid">
       <article>
-        <h3>Area do Cliente</h3>
-        <p>Centralize acessos, chamados e comunicados em um unico lugar para sua operacao.</p>
+        <h3>Área do Cliente</h3>
+        <p>Centralize acessos, chamados e comunicados em um único lugar para sua operação.</p>
       </article>
     </section>
 
     <section id="solucoes" class="grid">
       <article>
         <h3>Alertas proativos</h3>
-        <p>Rotas inteligentes de incidentes com thresholds dinamicos e alertas contextualizados.</p>
+        <p>Rotas inteligentes de incidentes com thresholds dinâmicos e alertas contextualizados.</p>
       </article>
       <article>
         <h3>Dashboards vivos</h3>
-        <p>Visao consolidada de latencia, disponibilidade e consumo com historico detalhado.</p>
+        <p>Visão consolidada de latência, disponibilidade e consumo com histórico detalhado.</p>
       </article>
       <article>
         <h3>Operacao segura</h3>
-        <p>Padroes de acesso, trilhas e logs para conformidade e auditoria.</p>
+        <p>Padrões de acesso, trilhas e logs para conformidade e auditoria.</p>
       </article>
     </section>
 
     <section id="stack" class="stack">
       <div>
         <p class="stack-pill">Stack integrada</p>
-        <h2>Plataforma completa para operar com confianca.</h2>
+        <h2>Plataforma completa para operar com confiança.</h2>
         <p>
-          Unifique observabilidade, dados e alertas em um fluxo unico para responder rapido,
-          reduzir riscos e manter a operacao sempre resiliente.
+          Unifique observabilidade, dados e alertas em um fluxo único para responder rápido,
+          reduzir riscos e manter a operação sempre resiliente.
         </p>
       </div>
       <div class="stack-actions">
@@ -127,7 +127,7 @@
   <footer id="contato" class="footer">
     <div>
       <strong>InfraStack</strong>
-      <p>Monitoramento e observabilidade para operacoes criticas.</p>
+      <p>Monitoramento e observabilidade para operações críticas.</p>
     </div>
     <div>
       <a href="https://wa.me/553196927212">WhatsApp: +55 31 9692-7212</a>
